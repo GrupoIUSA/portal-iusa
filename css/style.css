@@ -1,0 +1,252 @@
+
+/*Bienvenidos*/
+
+.logo img{
+    width: 50px;
+    margin: 0 0px 0 60px;
+}
+
+
+
+.red_flag {
+    height: 30px;
+    margin: 20px 0 0 0;
+    position: relative;
+    right: 25px;
+}
+
+
+.red_flag .product-new {
+    color: #fff;
+    float: left;
+    line-height: 26px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background: url(../images/new-bg.png) no-repeat;
+    height: 25px;
+    width: 144px;
+}
+
+
+.panel-heading i{
+    float: left;
+}
+
+
+
+/*Distribuidor*/
+
+.panel-dis-1 {
+    border-right: 1px solid #ddd;
+    height: 100px;
+    margin: 0 5px 0 0;
+}
+
+.panel-dis-1 img {
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+.panel-dis-1 h1 {
+    font-size: 16px;
+    font-weight: bold;
+    /* line-height: 0; */
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+
+.panel-dis-sub-1 {
+    margin: 0 0 20px 0;
+}
+
+span.dis-wallet img {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.fa-caret-up{
+    color: #40bad1;
+}
+
+.panel-dis-3 {
+    border-left: 1px solid #ddd;
+    height: 100px;
+    margin: 0 5px 0 0;
+}
+
+h2.page-header-dis-sub {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #929292;
+}
+
+h2.page-header-dis-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0;
+}
+
+
+
+/*Titulo | Panel*/
+
+span.panel-text-title {
+    margin: 0px 0px 0px 80px;
+    width: 200px;
+    display: block;
+}
+
+
+h3.panel-title-1{
+	font-weight: bold;
+    color: #989898;
+    font-size: 16px;
+    line-height: 0;
+}
+
+h3.panel-title-2{
+	font-weight: bold;
+    color: #000;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.panel-heading {
+    padding: 5px 15px 10px;
+}
+
+
+/*Resumen perfil*/
+
+.panel-resumen{
+	border-bottom: 1px solid #ddd;
+	height: 300px;
+}
+
+.grafica-body{
+	border-left: 1px solid #ddd;
+	height: 250px;
+}
+
+.grafica-body.none-border{
+	border-left: 0px solid #ddd;
+	height: 250px;
+}
+
+
+/*.panel-pleca hr{
+	border-top: 1px solid #4d4e53;
+    height: 0;
+    margin: 20px 0;
+}*/
+
+
+/*Estado de cuenta*/
+
+.panel-resumen.none-border{
+	border-bottom: 0px solid #ddd;
+	height: 300px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.table thead tr th {
+    border-bottom: 0px solid #ddd; 
+}
+
+.table tbody tr td {
+	border-top: 0px solid #ddd;
+    border-bottom: 0px solid #ddd;
+}
+
+
+/*Footer*/
+.social{
+	/*margin: 0 0 0 0%;*/
+	float: none;
+}
+
+.social p {
+	font-size: 16px;
+    float: left;
+}
+
+span.panel-text-title-footer p {
+	font-size: 16px;
+    float: left;
+}
+
+span.panel-text-title-footer a {
+	font-size: 16px;
+	color: #000;
+}
+
+.panel.no-shadow{
+	-webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+} 
+
+.instagram{
+	color: #ff1700;
+}
+
+.youtube{
+	color: #ff1700;
+}
+
+
+/*Publicidad*/
+
+
+.panel-body.pub-1 {
+    padding: 0;
+}
+
+.panel-publicidad-1 img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.panel-body.pub-2 {
+    padding: 0;
+}
+
+.panel-publicidad-2 img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.panel-body.pub-3 {
+    padding: 0;
+}
+
+.panel-publicidad-3 img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+
+}
