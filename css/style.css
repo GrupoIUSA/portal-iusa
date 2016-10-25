@@ -124,7 +124,7 @@ h3.panel-title-2{
 }
 
 .panel-heading {
-    padding: 5px 15px 10px;
+    padding: 5px 15px 20px;
 }
 
 
@@ -151,6 +151,109 @@ h3.panel-title-2{
     height: 0;
     margin: 20px 0;
 }*/
+
+
+/*Ventas por división*/
+
+.panel-heading-ventas {
+    margin: 20px 0 0 0;
+    display: block;
+}
+
+
+.fa-usd{
+    float: left;
+    margin: 0 10px 0 0;
+    color: #40bad1;
+}
+
+h3.panel-text-title-ventas {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0;
+}
+
+
+.panel-ventas-sub-1 {
+    margin: 20px 0 0 0;
+}
+
+.panel-ventas-sub-2 {
+    margin: 20px 0 0 0;
+}
+
+.panel-ventas-sub-3 {
+    margin: 100px 0 0 0;
+}
+
+/*.checkfamilia{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}*/
+
+
+/*Gráficas*/
+
+.panel-heading-grafica {
+    margin: 20px 0 0 0;
+    display: block;
+}
+
+.panel-title-grafica{
+    margin: 0 auto;
+    display: block;
+}
+
+h3.panel-text-title-grafica {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0;
+    line-height: 25px;
+}
+
+
+.panel-credito {
+    width: 60%;
+    float: right;
+    margin: -30px 0 0 0;
+}
+
+.panel-title-credito {
+    margin: 0 20px 0 0;
+    display: block;
+    float: left;
+}
+
+h3.panel-text-title-credito {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0;
+    line-height: 25px;
+}
+
+span.panel-title-credito-cantidad {
+    margin: -20px 0 0 0;
+    display: block;
+}
+
+
+h3.panel-text-title-credito-cantidad {
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0;
+    line-height: 25px;
+}
+
 
 
 /*Estado de cuenta*/

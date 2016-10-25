@@ -52,6 +52,26 @@
 	display: none;
 	}
 
+	.panel-resumen {
+    height: 520px;
+	}
+
+	.panel-ventas-sub-3 {
+    margin: 0px 0 0 0;
+	}
+
+	.panel-ventas-sub-2 {
+    height: 300px;
+	}
+
+	.panel-credito {
+    width: 95%;
+     float: none; 
+    margin: 30px auto 0;
+    display: block;
+	}
+
+
 }
 
 
@@ -106,6 +126,22 @@
 	.panel-publicidad-3 img {
 	display: none;
 	}
+
+	.panel-resumen {
+    height: 520px;
+	}
+
+	.panel-ventas-sub-2 {
+    height: 200px;
+	}
+
+	.panel-credito {
+    width: 95%;
+     float: none; 
+    margin: 30px auto 0;
+    display: block;
+	}
+
 
 }
 
@@ -165,6 +201,14 @@
 	.panel-publicidad-2 img,
 	.panel-publicidad-3 img {
 	display: none;
+	}
+
+	.panel-ventas-sub-2 {
+    height: 200px;
+	}
+
+	.panel-resumen {
+    height: 520px;
 	}
 
 }
