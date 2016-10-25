@@ -6599,7 +6599,7 @@ button.close {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse{
-    display: none;
+    display: block;
   }
   .visible-sm {
     display: block !important;

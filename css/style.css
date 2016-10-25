@@ -280,6 +280,41 @@ td {
     border-bottom: 0px solid #ddd;
 }
 
+.link-factura{
+    color: #000;
+    text-decoration: underline;
+}
+
+.link-factura:hover{
+    color: #40bad1;
+    text-decoration: underline;
+}
+
+.importe-bold{
+    font-weight: bold;
+}
+
+
+.p-bold{
+    font-weight: bold;
+    color: #40bad1;
+}
+
+.e-bold{
+    font-weight: bold;
+    color: #f3992b;
+}
+
+.t-bold{
+    font-weight: bold;
+    color: #e7321f;
+}
+
+.r-bold{
+    font-weight: bold;
+    color: #09a64b;
+}
+
 
 /*Footer*/
 .social{
