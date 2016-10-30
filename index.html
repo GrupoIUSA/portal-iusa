@@ -126,9 +126,9 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="panel-dis-1">
-                            <img src="images/distribuidor_1.jpg" alt="">
+                            <img src="images/distribuidor_2.jpg" alt="">
                             <h1 class="page-header-dis">
-                                Grupo Boxito S.A. DE C.V. <!-- <small>Statistics Overview</small> -->
+                                ALCIONE S.A. DE C.V. <!-- <small>Statistics Overview</small> -->
                             </h1>
                         </div>
                     </div>
@@ -253,6 +253,8 @@
                                         </div>
                                         <div class="col-lg-3 col-xs-6">
                                             <div class="panel-ventas-sub-2">
+                                                <!--Gráfica - 1-->
+                                                <!-- <div id="chart-container"></div> -->
                                                 
                                             </div>
                                         </div>
@@ -605,6 +607,66 @@
     <script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
     <script src="vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
     <script src="vendor/datatables-responsive/dataTables.responsive.js"></script>
+
+    <!-- Fusioncharts JavaScript -->
+    <script src="vendor/fusioncharts/fusioncharts.js"></script>
+    <script src="vendor/fusioncharts/fusioncharts.widgets.js"></script>
+    <script src="vendor/fusioncharts/themes/fusioncharts.theme.fint.js"></script>
+
+    <script>
+    FusionCharts.ready(function () {
+    var conversionChart = new FusionCharts({
+        type: 'funnel',
+        renderAt: 'chart-container',
+        width: '250',
+        height: '400',
+        dataFormat: 'json',
+        dataSource: {
+            "chart": {
+                "caption": "",
+                "subcaption": "",
+                "decimals": "1",
+                "is2D": "0",
+                "streamlinedData" : "0",
+
+                //Show legend
+                "showLegend" : "1",
+                "showLabels" : "0",
+                
+                "theme" : "fint"
+            },
+            "data": [
+                {
+                    "label": "Plomería",
+                    "value": "1460000"
+                }, 
+                {
+                    "label": "Calentadores",
+                    "value": "930000"
+                }, 
+                {
+                    "label": "Equipo de Bombeo",
+                    "value": "540000"
+                }, 
+                {
+                    "label": "Generadores Eléctricos",
+                    "value": "210000"
+                }, 
+                {
+                    "label": "Manejo de Agua",
+                    "value": "190000"
+                }, 
+                {
+                    "label": "Conductor Eléctrico",
+                    "value": "120000"
+                }
+            ]
+        }
+    });
+    
+    conversionChart.render();
+});
+</script>
 
     <!-- Custom Theme JavaScript -->
     <script src="dist/js/sb-admin-2.js"></script>
