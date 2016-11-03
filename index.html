@@ -236,6 +236,13 @@
 
                                     <div class="row">
                                         <div class="col-lg-3 col-xs-6">
+                                            <div class="panel-ventas-sub-2">
+                                                <!--Gráfica - 1-->
+                                                <div id="chart-container"></div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-xs-6">
                                             <div class="panel-ventas-sub-1">
                                                 <form action="demo_form.asp">
                                                   <input type="checkbox" name="plomeria" value="plomeria" checked>Plomería<br>
@@ -244,18 +251,7 @@
                                                   <input type="checkbox" name="g-electrico" value="c-electrico" checked>Generadores Eléctricos<br>
                                                   <input type="checkbox" name="m-agua" value="c-electrico" checked>Manejo de Agua<br>
                                                   <input type="checkbox" name="c-electrico" value="c-electrico" checked>Conductor Eléctrico<br>
-                                                  <input type="checkbox" name="m-electrico" value="m-electrico" checked>Material Eléctrico<br>
-                                                  <input type="checkbox" name="iluminacion" value="c-electrico" checked>Iluminación<br>
-                                                  <input type="checkbox" name="e-solar" value="c-electrico" checked>Energía Solar<br>
-                                                  <input type="checkbox" name="m-sintetica" value="c-electrico" checked>Madera sintetíca<br>
                                                 </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-xs-6">
-                                            <div class="panel-ventas-sub-2">
-                                                <!--Gráfica - 1-->
-                                                <!-- <div id="chart-container"></div> -->
-                                                
                                             </div>
                                         </div>
                                         <div class="col-lg-2 col-xs-4">
@@ -311,6 +307,7 @@
                                                         OPORTINIDAD DE MERCADO
                                                         </h3>
                                                     </span>
+                                                    <!-- <div id="chart-container">80%</div> -->
                                                 </div>
 
 
@@ -611,7 +608,7 @@
     <!-- Fusioncharts JavaScript -->
     <script src="vendor/fusioncharts/fusioncharts.js"></script>
     <script src="vendor/fusioncharts/fusioncharts.widgets.js"></script>
-    <script src="vendor/fusioncharts/themes/fusioncharts.theme.fint.js"></script>
+    <script src="vendor/fusioncharts/fusioncharts.theme.fint.js"></script>
 
     <script>
     FusionCharts.ready(function () {
@@ -619,7 +616,7 @@
         type: 'funnel',
         renderAt: 'chart-container',
         width: '250',
-        height: '400',
+        height: '280',
         dataFormat: 'json',
         dataSource: {
             "chart": {
@@ -637,27 +634,21 @@
             },
             "data": [
                 {
-                    "label": "Plomería",
                     "value": "1460000"
                 }, 
                 {
-                    "label": "Calentadores",
                     "value": "930000"
                 }, 
                 {
-                    "label": "Equipo de Bombeo",
                     "value": "540000"
                 }, 
                 {
-                    "label": "Generadores Eléctricos",
                     "value": "210000"
                 }, 
                 {
-                    "label": "Manejo de Agua",
                     "value": "190000"
                 }, 
                 {
-                    "label": "Conductor Eléctrico",
                     "value": "120000"
                 }
             ]
@@ -665,8 +656,80 @@
     });
     
     conversionChart.render();
+
+
 });
+
+
+
 </script>
+
+<!-- <script>
+    FusionCharts.ready(function () {
+    var salesChart = new FusionCharts({
+        type: 'bulb',
+        renderAt: 'chart-container',
+        id: 'myChart',
+        width: '150',
+        height: '150',
+        dataFormat: 'json',
+        dataSource: {
+            "chart": {
+                "caption": "",
+                "upperlimit": "-5",
+                "lowerlimit": "-60",
+                "captionPadding":"30",
+                "showshadow":"0",
+                "showvalue": "1",
+                "useColorNameAsValue":"1",
+                "placeValuesInside":"1",
+                "valueFontSize": "16",
+                
+                //Border configuration
+                "showGaugeBorder" : "1",
+                "gaugeBorderThickness" : "10",
+                "gaugeBorderAlpha" : "100",
+                //Darker border color of initial fill
+                "gaugeBorderColor" : "{dark-30}",
+                
+                
+                //Theme
+                "theme" : "fint"
+                
+                
+            },
+            "colorrange": {
+                "color": [
+                    {
+                        "minvalue": "-60",
+                        "maxvalue": "-35",
+                        "label": "60%",
+                        "code": "#ff0000"
+                    }, 
+                    {
+                        "minvalue": "-35",
+                        "maxvalue": "-25",
+                        "label": "35%",
+                        "code": "#ff9900"
+                    }, 
+                    {
+                        "minvalue": "-25",
+                        "maxvalue": "-5",
+                        "label": "5%",
+                        "code": "#00ff00"
+                    }
+                ]
+            },
+            "value": "-28"
+        }
+    });
+    salesChart.render();
+
+
+
+});
+
+</script> -->
 
     <!-- Custom Theme JavaScript -->
     <script src="dist/js/sb-admin-2.js"></script>

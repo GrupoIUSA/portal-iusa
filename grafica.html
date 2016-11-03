@@ -13,7 +13,7 @@
 <!-- Fusioncharts JavaScript -->
     <script src="vendor/fusioncharts/fusioncharts.js"></script>
     <script src="vendor/fusioncharts/fusioncharts.widgets.js"></script>
-    <script src="vendor/fusioncharts/themes/fusioncharts.theme.fint.js"></script>
+    <script src="vendor/fusioncharts/fusioncharts.theme.fint.js"></script>
 
     <script>
     FusionCharts.ready(function () {
@@ -67,14 +67,18 @@
             ]
         }
     });
+
+    function floatRight() {
+    document.getElementById("legendItemId").style.marginRight = "50px";
+    document.getElementById("legendItemId").style.cssFloat = "right";
+}
+
     
     conversionChart.render();
 });
 </script>
 
 <script>
-
-var hoja = document.getElementsByClassName('destacado');
 	
 
 </script>
